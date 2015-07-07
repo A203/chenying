@@ -1,0 +1,26 @@
+package cy.loop.ex;
+
+import java.util.Scanner;
+
+public class kehoulianxi {
+
+	/**
+	 * @param args
+	 * 提示用户输入一个1-100之间的数字
+	 * 假设用户输入的是13，则打印
+	 *     1
+	 *    222
+	 *   33333
+	 *  4444444
+	 *  .....
+	 * DDDDDDDDD  
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("请输入一个1-100间的数");
+		Scanner keyboard=new Scanner(System.in);
+		
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package cy.loop.ex;
+
+public class xingxingtu2 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*       *     
+		 *      ***
+		 *     *****
+		 *    *******
+		 *   *********
+		 *   行   星星数   前面的空
+		 *   1   1     
+		 *   
+		 */
+
+	}
+
+}

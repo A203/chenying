@@ -1,0 +1,17 @@
+package cy.task.tuesday;
+
+import java.util.Random;
+
+public class RandomDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Random random=new Random();
+		int m=random.nextInt(100);
+
+	}
+
+}
