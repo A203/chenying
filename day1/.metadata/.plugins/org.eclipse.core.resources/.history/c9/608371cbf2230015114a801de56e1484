@@ -1,0 +1,13 @@
+package cy.choose;
+
+public class Task5Choose {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

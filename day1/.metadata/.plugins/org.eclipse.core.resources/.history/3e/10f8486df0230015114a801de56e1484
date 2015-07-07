@@ -1,0 +1,14 @@
+package cy.task2;
+
+public class Task2 {
+
+	/**
+	 * @param args
+	 * 创建Exe01.java：创建boolean变量，分别赋值（true、false、0），并打印出该变量
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
