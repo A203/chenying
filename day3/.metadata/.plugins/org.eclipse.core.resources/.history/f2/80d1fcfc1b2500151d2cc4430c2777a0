@@ -1,0 +1,37 @@
+package cy.thisdemo;
+
+public class Thisdemo {
+	class Person{
+	String name;
+	int age;
+	String address;
+	
+	public Person(){}
+	public Person(String name ,int age)
+	{
+		this.name=name;
+		this.age=age;
+	}
+	public Person(String name,int age,String address){
+		this(name,age);//调用当前类的两个参数的构造方法
+        this.address=address;
+	}
+	void hello(){
+		System.out.println("hello...");
+	}
+	void introduce(){
+		System.out.println("name:"+name+"age:"+age+"address"+address);
+	}
+	
+	}
+	/*this指当前对象
+	  1.this可以用在构造方法内容，用来区分同名的成员变量和局部变量
+	  2.this可以用于调用构造方法，减少代码冗余
+	  3.this可以用于调用成员属性和方法
+	*/
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

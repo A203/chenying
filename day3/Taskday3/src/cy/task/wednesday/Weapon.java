@@ -1,0 +1,20 @@
+package cy.task.wednesday;
+//Tank,Flighter,WarShip都继承自Weapon,分别用不同的方式实现 Weapon 类中的抽象方法。
+public abstract class Weapon implements Assaultable , Mobile{
+	
+	
+}
+class Tank extends Weapon{
+    public void attack(){System.out.println("Tank attack");}
+	public void move(){System.out.println("Tank move");}
+}
+class Flighter extends Weapon{
+    public void attack(){System.out.println("Flighter attack");}
+	public void move(){System.out.println("Flighter move");}
+	
+}
+class WarShip extends Weapon{
+    public void attack(){System.out.println("WarShip attack");}
+	public void move(){System.out.println("WarShip move");}
+	
+}

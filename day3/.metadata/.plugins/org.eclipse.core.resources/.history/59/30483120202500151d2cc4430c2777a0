@@ -1,0 +1,16 @@
+package cy.staticѧϰ;
+
+public class Demo01 {
+	
+	int age;
+	
+	void hello(){
+		System.out.println("hello...");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

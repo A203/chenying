@@ -1,0 +1,8 @@
+INDEX VERSION 1.126+A:\SuzhouShixiEclipse\day3\.metadata\.plugins\org.eclipse.jdt.core
+1977941353.index
+853515815.index
+1374308216.index
+1590175593.index
+3230324676.index
+1582121284.index
+303391664.index

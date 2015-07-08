@@ -1,0 +1,5 @@
+package cy.task.wednesday;
+
+public interface Mobile {
+
+}

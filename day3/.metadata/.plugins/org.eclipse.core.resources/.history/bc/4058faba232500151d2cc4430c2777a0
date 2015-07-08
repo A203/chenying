@@ -1,0 +1,18 @@
+package cy.类的加载和对象实例化;
+
+public class Ex初始化块 {
+
+
+	public static void main(String[] args) {
+		
+	}
+
+}
+class Person{
+	Person(){
+		System.out.println(1);
+	}
+	{
+		System.out.println(2);
+	}
+}

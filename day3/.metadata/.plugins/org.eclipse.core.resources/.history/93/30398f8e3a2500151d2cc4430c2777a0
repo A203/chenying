@@ -1,0 +1,20 @@
+package cy.xiushifu02;
+
+import cy.xiushifu01.A;
+
+public class B extends A{
+	public void methodB1(){//ctrl+1自动提示
+		A a = new A();
+		a.methodA1();
+		//a.methodA2();
+		//a.methodA3();
+		methodA4();
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

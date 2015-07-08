@@ -1,0 +1,11 @@
+package cy.task.wednesday;
+
+public abstract class Weapon implements Assaultable , Mobile{
+
+	
+	public static void main(String[] args) {
+
+
+	}
+
+}

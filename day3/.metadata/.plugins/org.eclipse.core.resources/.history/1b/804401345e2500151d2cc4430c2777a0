@@ -1,0 +1,79 @@
+package cy.task.wednesday;
+//写一个类Army,代表一支军队，这个类有一个属性是Weapon数组w（用来存储该军队所拥有的所有武器）；
+//该类还提供一个构造方法，在构造方法里通过传一个int类型的参数来限定该类所能拥有的最大武器数量,并用这一大小来初始化数组w。该类还提供一个方法addWeapon(Weapon wa),表示把参数wa所代表的武器加入到数组w中。在这个类中还定义两个方法attackAll()和moveAll()，让w数组中的所有武器攻击和移动。
+public class Army {
+	int nummax;
+	Weapon[] w;
+	public Army(){}
+	public Army(int a){
+		nummax=a;
+		w=new Weapon[a];
+	}
+	
+	 /*public void addWeapon(Weapon weapon) {
+		 if (size >= w.length) {
+		 System.out.println("军队装备足够了!");
+		 return;
+		 }
+		 else {
+		 w[size] = weapon;
+		 size++;
+		 }
+		 }*/
+	public void addWeapon(Weapon wa)//表示把参数wa所代表的武器加入到数组w中
+	{
+		int i;
+		for(i=0;i<w.length;i++){
+			System.out.println("w.length:"+w.length);
+			if ((w[i])==null){
+				break;
+			}
+		}
+		if(i>=w.length)
+		{
+			System.out.println("军队装备足够了！无法再添加！");
+			System.exit(0);
+		}
+		else
+		w[i]=wa;
+	}
+//在这个类中还定义两个方法attackAll()和moveAll()，让w数组中的所有武器攻击和移动。
+	public void attackAll(){
+		for(int i=0;i<w.length;i++)
+		{
+			w[i].attack();
+		}
+	}
+	public void moveAll(){
+		for(int i=0;i<w.length;i++)
+		{
+			w[i].move();
+		}
+	}
+
+	//写一个主方法去测试以上程序
+	public static void main(String[] args) {
+		Army army1 = new Army(5);
+		Tank t1=new Tank();
+		Tank t2=new Tank();
+		Flighter t3=new Flighter();
+		Flighter t4=new Flighter();
+		WarShip t5=new WarShip();
+		
+		army1.addWeapon(t1);
+		army1.addWeapon(t2);
+		army1.addWeapon(t3);
+		army1.addWeapon(t4);
+		army1.addWeapon(t5);
+		
+		army1.attackAll();
+		army1.moveAll();
+		
+		
+		
+		
+
+
+	}
+
+}

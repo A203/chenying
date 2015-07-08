@@ -1,0 +1,13 @@
+package cy.task.wednesday;
+
+public class D {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] a;
+		a=new int[2];
+		System.out.println(a.length);
+
+	}
+
+}
