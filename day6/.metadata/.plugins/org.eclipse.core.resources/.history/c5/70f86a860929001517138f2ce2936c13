@@ -1,0 +1,19 @@
+package com.cy.tulingdemo;
+
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.DefaultHttpClient;
+
+import android.os.AsyncTask;
+
+public class HttpData extends AsyncTask<String, Void, String> {//Void首字母也是大写
+
+	private HttpClient mHttpClient;
+	private HttpGet mHttpGet;
+	@Override
+	protected String doInBackground(String... arg0) {
+		mHttpClient = new DefaultHttpClient();
+		return null;
+	}
+
+}

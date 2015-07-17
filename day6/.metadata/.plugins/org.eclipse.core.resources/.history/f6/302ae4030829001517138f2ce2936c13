@@ -1,0 +1,13 @@
+package com.cy.tulingdemo;
+
+import android.os.AsyncTask;
+
+public class HttpData extends AsyncTask<String, Void, String> {//Void首字母也是大写
+
+	@Override
+	protected String doInBackground(String... arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

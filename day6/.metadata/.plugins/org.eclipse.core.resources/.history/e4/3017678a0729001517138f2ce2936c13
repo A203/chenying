@@ -1,0 +1,7 @@
+package com.cy.tulingdemo;
+
+import android.os.AsyncTask;
+
+public class HttpData extends AsyncTask<String, void, String> {
+
+}

@@ -1,0 +1,5 @@
+package com.cy.tulingdemo;
+
+public interface HttpGetData {
+
+}
